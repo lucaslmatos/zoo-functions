@@ -17,7 +17,7 @@ describe('Testes da função HandlerElephants', () => {
     expect(actual).toStrictEqual(expected);
   });
   it('Quando receber o parâmetro names, deve retornar um array com a relação dos nomes de todos os elefantes ', () => {
-    const expected = ['Ilana','Orval','Bea','Jefferson'];
+    const expected = ['Ilana', 'Orval', 'Bea', 'Jefferson'];
     const actual = handlerElephants('names');
     expect(actual).toStrictEqual(expected);
   });
