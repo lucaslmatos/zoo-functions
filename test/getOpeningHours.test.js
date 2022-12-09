@@ -36,7 +36,4 @@ describe('Testes da função getOpeningHours', () => {
     expect(() => getOpeningHours('Monday', '09:3T-AM')).toThrow('The minutes should represent a number');
     expect(() => getOpeningHours('Duesday', '09:30-AM')).toThrow('The day must be valid. Example: Monday');
   });
-  // it('Se a hora passada for igual a 0, deve ser considerado o horário 12', () => {
-  //   expect(() => getOpeningHours('Tuesday', '00:30-AM')).toEqual('The zoo is open');
-  // });
 });
